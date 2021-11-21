@@ -24,7 +24,7 @@ h1 {
     font-size: 4rem;
 }
   
-  .roller {
+.roller {
     height: 4.125rem;
     line-height: 4rem;
     position: relative;
@@ -44,25 +44,26 @@ h1 {
     letter-spacing: 1rem;
     margin-top: 0;
     color: #A8DADC;
+    word-wrap: break-word;
 }
   
 .roller #rolltext {
     position: absolute;
     top: 0;
-    animation: slide 5s infinite;  
+    animation: slide 10s infinite;  
 }
   
 @keyframes slide {
-0%{
-    top:0;
-}
-25%{
-    top: -4rem;    
-}
-50%{
-    top: -8rem;
-}
-72.5%{
-    top: -12.25rem;
-}
+    0% {
+        top: 0;
+    }
+    25% {
+        top: -4rem;    
+    }
+    50% {
+        top: -8rem;
+    }
+    72.5% {
+        top: -12.25rem;
+    }
 }

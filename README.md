@@ -1,4 +1,4 @@
-# 🖩 CSS Rolling Text Animation
+# 📄 CSS Rolling Text Animation
 
 Animação simples e moderna para rolagem de texto.
 

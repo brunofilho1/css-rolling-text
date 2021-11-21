@@ -7,6 +7,14 @@
 body {
     background-color: #8ca9df;
 }
+
+#title-text {
+    font-size: 1.5rem;
+    text-transform: none;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    letter-spacing: 1rem;
+}
   
 .main {
     height: 100vh;
@@ -39,12 +47,12 @@ h1 {
   
   
 #spare-time{
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-style: italic;
+    font-family:'Courier New', Courier, monospace;
     letter-spacing: 1rem;
     margin-top: 0;
-    color: #89d2d4;
-    word-wrap: break-word;
+    color: #f1f1f1;
 }
   
 .roller #rolltext {
@@ -64,6 +72,6 @@ h1 {
         top: -8rem;
     }
     72.5% {
-        top: -12.25rem;
+        top: -13.25rem;
     }
 }
